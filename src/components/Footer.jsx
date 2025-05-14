@@ -20,7 +20,7 @@ export default function Footer() {
               <h3 className="text-lg font-semibold text-white">LinkStash</h3>
             </div>
             <p className="text-gray-400 mb-4 md:text-left max-w-xs">
-              Organize, compartilhe e acesse seus itens favoritos de qualquer lugar.
+              Organize e guarde seus itens favoritos de qualquer lugar.
             </p>
             <div className="flex gap-4">
               {[
