@@ -1,0 +1,132 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@font-face{
+  font-family: 'Mulish';
+  src: url('/fonts/Mulish-VariableFont_wght.ttf');
+}
+
+@font-face{
+  font-family: 'JosefinSans';
+  src: url('/fonts/JosefinSans-VariableFont_wght.ttf');
+}
+
+@font-face{
+  font-family: 'Hubballi-Regular';
+  src: url('/fonts/Hubballi-Regular.ttf');
+}
+
+:root {
+  --primary: #7c3aed;
+  --primary-dark: #6d28d9;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4b5fd;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #6b7280;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+.link-card {
+  transition: all 0.2s ease;
+}
+
+.link-card:hover {
+  transform: translateY(-2px);
+}
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #7c3aed, #4f46e5);
+}
+
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1.2em;
+  height: 1.2em;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25em;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-checkbox:checked {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.custom-checkbox:checked::after {
+  content: "✓";
+  position: absolute;
+  color: white;
+  font-size: 0.8em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dark .custom-checkbox {
+  border-color: #4b5563;
+}
+
+.dark .custom-checkbox:checked {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.color-option:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.color-option {
+  transition: all 0.2s ease-in-out;
+}
+
+.badge-hover {
+  transition: transform 0.2s ease;
+}
+.badge-hover:hover {
+  transform: scale(1.1);
+}
+
+.bg-pattern-1 {
+  background-image: url('/assets/banners/pattern-1.svg');
+}
+
+.bg-pattern-2 {
+  background-image: url('/assets/banners/custom-1.svg');
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
