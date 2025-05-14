@@ -1,101 +1,93 @@
+# 🔗📚 LinkStash - Organize and Save Your Favorite Items!  
+`Developed by:` *Vinícius Lima*
 
-# 🔗📚 LinkStash - Organize e guarde seus itens favoritos!
-`Desenvolvido por:` Vinícius Lima
+`📄 Also available in:` **[portuguese language](README_pt.md)**
 
-![Banner do LinkStash](./BannerLinkStash.png)
+![LinkStash Banner](./BannerLinkStash.png)
 
-**LinkStash** *é uma aplicação web moderna para **organizar** e **gerenciar** todos os seus itens digitais importantes em um só lugar. Guarde **links**, **notas**, **listas de tarefas** e **imagens** com facilidade e **acesse de qualquer dispositivo.***
+**LinkStash** *is a modern web application to **organize** and **manage** all your important digital items in one place. Save **links**, **notes**, **to-do lists**, and **images** easily and **access them from any device.***
 
+## **🌐 Live Demo**
 
-## **🌐 Demonstração**
+`🔗 Access the project at:` ***https://www.linkstash.com.br***
 
-`🔗 Acesse o projeto em:` ***https://www.linkstash.com.br***
+## **✨ Main Features**
 
+- **Storage of *favorite links*, *notes*, *to-do lists*, and *image gallery***
+- **Advanced search with filters by type and name**
+- **Secure authentication with Firebase Auth**
+- **Responsive design with customizable themes and smooth animations**
+- **Real-time synchronization with Firestore**
 
-## **✨ Recursos Principais**
-
-- **Armazenamento de *links favoritos*, *notas*, *listas de tarefas* e *galeria de imagens***
-
-- **Busca avançada com filtros por tipo, data e tags**
-- **Autenticação segura com Firebase Auth**
-- **Design responsivo com temas customizáveis e animações suaves**
-- **Sincronização em tempo real com Firestore**
-
-## **⚙️ Tecnologias Utilizadas**
+## **⚙️ Technologies Used**
 
 ### `Frontend`
 
-- **⚛️ React.js** 
-
-- **🧭 React Router** 
-
+- **⚛️ React.js**
+- **🧭 React Router**
 - **🎨 Tailwind CSS**
-
 - **🎞️ Framer Motion**
-
 - **🔔 React Icons**
-
 - **🎯 Sonner**
 
-### `Backend + Outros`
-- 🔥 **Firebase** 
+### `Backend + Others`
 
-  - ***Firestore*** 
-  - ***Auth*** 
-  
+- 🔥 **Firebase**
+  - ***Firestore***
+  - ***Auth***
 - 📄 **Vite**
-
 - ⚙️ **.env**
-
 - ▲ **Vercel**
 
+## **🚀 How to Use**
 
-## **🚀 Como Usar**
-
-- ### `🔐 Autenticação`
-    - **Registro completo com *e-mail*, *telefone* e *senha***
-    - **Login persistente**
-    - **Recuperação de senha via *e-mail***
+- ### `🔐 Authentication`
+    - **Full registration with *email*, *phone*, and *password***
+    - **Persistent login**
+    - **Password recovery via *email***
 
 - ### `📊 Dashboard`
-    - **Adicionar: *links*, *notas*, *listas*, *imagens***
-    - **Visualização e edição em tempo real**
-    - **Filtros, busca e organização** 
+    - **Add: *links*, *notes*, *tasks*, *images***
+    - **Real-time viewing and editing**
+    - **Filters, search, and organization**
 
-- ### `👤 Perfil`
-    - ***Avatar* e *banner* personalizados**
-    - **Bio e badges *(gamificação futura)*** 
+- ### `👤 Profile`
+    - **Custom *avatar* and *banner***
+    - **Bio and badges *(future gamification)***
 
-- ### `⚙️ Configurações`
-    - **Alteração de senha**  
-    - **Exclusão de conta com confirmação** 
+- ### `⚙️ Settings`
+    - **Password change**
+    - **Account deletion with confirmation**
 
-## 💻 Instalação Local
-Para executar o projeto localmente, siga os passos abaixo:
+## 💻 Local Installation
 
-- ### `Pré-requisitos`
-    - **Node.js `(v16 ou superior)`**
-    - **npm ou yarn**  
-    - **Conta no Firebase**
+To run the project locally, follow the steps below:
 
-**1. Clone o repositório:**
+- ### `Prerequisites`
+    - **Node.js `(v16 or higher)`**
+    - **npm or yarn**
+    - **Firebase account**
+
+**1. Clone the repository:**
 
 ```bash
 git clone https://github.com/inkmors/LinkStash.git
 cd linkstash
 ```
-**2. Instale as dependências:**
+
+**2. Install dependencies:**
 
 ```bash
 npm install
 ```
-**3. Inicie o servidor de desenvolvimento:**
+
+**3. Start the development server:**
 
 ```bash
 npm run dev
 ```
 
-**4. Crie um `.env` na raiz com as suas chaves do Firebase:**
+**4. Create a `.env` file at the root with your Firebase keys:**
 
 ```bash
 VITE_FIREBASE_API_KEY=your-key
@@ -105,57 +97,58 @@ VITE_FIREBASE_STORAGE_BUCKET=your-bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
 VITE_FIREBASE_APP_ID=your-app-id
 ```
-**5. Acesse a aplicação:**
+
+**5. Access the application:**
+
 ```bash
-Abra seu navegador e acesse http://localhost:3000 (ou a porta configurada).
+Open your browser and go to http://localhost:3000 (or the configured port).
 ```
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
+
 ```bash
 link-stash/
     ├── public/
     ├── src/
-    │   ├── assets/  #  Imagens, favicon, etc,
-    │   ├── components/  # Componentes reutilizáveis do React,
-    │   ├── contexts/  # Contextos globais (ex: AuthContext, ThemeContext),
-    │   ├── hooks/  # Hooks personalizados (ex: useAuth, useStorage),
-    │   ├── pages/  # Páginas da aplicação (ex: Home, Login, Dashboard),
-    │   ├── App.jsx  # Componente principal da aplicação,
-    │   ├── firebase.js  # Configuração e inicialização do Firebase,  
-    │   ├── main.css  # Estilos globais e configurações do Tailwind,
-    │   └── main.jsx  # Ponto de entrada da aplicação,              
-    ├── package.json  # Configurações, scripts e dependências do projeto,
-    ├── index.html  # Arquivo HTML base da aplicação,
-    └── README.md  # Documentação principal do projeto.
-```   
+    │   ├── assets/         # Images, favicon, etc.
+    │   ├── components/     # Reusable React components
+    │   ├── contexts/       # Global contexts (e.g., AuthContext, ThemeContext)
+    │   ├── hooks/          # Custom hooks (e.g., useAuth, useStorage)
+    │   ├── pages/          # App pages (e.g., Home, Login, Dashboard)
+    │   ├── App.jsx         # Main app component
+    │   ├── firebase.js     # Firebase config and initialization
+    │   ├── main.css        # Global styles and Tailwind setup
+    │   └── main.jsx        # Application entry point
+    ├── package.json        # Project config, scripts, and dependencies
+    ├── index.html          # Base HTML file
+    └── README.md           # Main project documentation
+```
 
-## 🤝 Contribuição
+## 🤝 Contribution
 
-Contribuições são bem-vindas! Se você encontrar algum `bug` ou tiver `sugestões para melhorias`, por favor abra uma `issue` ou envie um `pull request`.
+Contributions are welcome! If you find a `bug` or have any `suggestions for improvements`, feel free to open an `issue` or submit a `pull request`.
 
-        1. Faça um fork do repositório.
+        1. Fork the repository.
 
-        2. Crie uma branch com a sua feature (git checkout -b minha-feature).
+        2. Create a branch for your feature (git checkout -b my-feature).
         
-        3. Faça o commit das suas alterações (git commit -m 'Minha nova feature').
+        3. Commit your changes (git commit -m 'My new feature').
 
-        4. Envie a branch (git push origin minha-feature).
+        4. Push the branch (git push origin my-feature).
 
-        5. Abra um Pull Request.
+        5. Open a Pull Request.
 
-## 📄 Licença
+## 📄 License
 
-**Distribuído sob a licença *MIT***.  
-*Consulte o arquivo `LICENSE` para mais informações.*
+**Distributed under the *MIT* license.**  
+*See the `LICENSE` file for more information.*
 
-
-## 📧 Contato
+## 📧 Contact
 
 - `Instagram:` — ***[@morusu.ink](https://instagram.com/morusu.ink)***  
-- `Linkedin:` — ***[Vinícius Lima](https://www.linkedin.com/in/vin%C3%ADcius-lima-738603284/)***  
-- `GitHub:` — ***[@inkmors](https://github.com/inkmors)***
-- `Email:` — ***gvlima.contato@gmail.com***
-- `Link do projeto:` — ***[www.linkstash.com.br](https://www.linkstash.com.br)***
+- `LinkedIn:` — ***[Vinícius Lima](https://www.linkedin.com/in/vin%C3%ADcius-lima-738603284/)***  
+- `GitHub:` — ***[@inkmors](https://github.com/inkmors)***  
+- `Email:` — ***gvlima.contato@gmail.com***  
+- `Project link:` — ***[www.linkstash.com.br](https://www.linkstash.com.br)***
 
-## Obrigado 🤍
-
+## Thank you 🤍
