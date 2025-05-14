@@ -367,10 +367,10 @@ export default function LandingPage() {
                     <div className="mb-4" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
                       <meta itemProp="ratingValue" content="5" />
                       {[...Array(5)].map((_, i) => (
-                        <span key={i} className="text-yellow-400 text-2xl">★</span> // Aumentei o tamanho da estrela para mais destaque
+                        <span key={i} className="text-yellow-400 text-2xl">★</span> 
                       ))}
                     </div>
-                    <p className="text-gray-300 mb-6 italic" itemProp="reviewBody"> {/* Adicionei itálico para maior ênfase no texto */}
+                    <p className="text-gray-300 mb-6 italic" itemProp="reviewBody">
                       "{testimonial.quote}"
                     </p>
                   </div>
@@ -437,7 +437,9 @@ export default function LandingPage() {
           </div>
         </section>
 
-        <section className="py-20 bg-gradient-to-r from-purple-600 to-indigo-600">
+        <section className="py-20" style={{
+          background: "linear-gradient(to right, #8b5cf6, #4f46e5)"
+        }}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">

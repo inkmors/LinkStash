@@ -73,7 +73,7 @@ export default function Footer() {
 
           <div className="flex flex-col items-start">
             <h3 className="text-lg font-semibold text-white mb-4">Contato</h3>
-            <div className="space-y-3 text-center md:text-left">
+            <div className="flex flex-col gap-3 text-center md:text-left">
               <div className="flex flex-row items-center gap-3 text-gray-400">
                 <div className="flex justify-center md:justify-start">
                   <FiMail className="flex-shrink-0" />
