@@ -1,5 +1,5 @@
 
-# 🔗📚 LinkStash - Organize e guarde seus itens favoritos
+# 🔗📚 LinkStash - Organize e guarde seus itens favoritos!
 `Desenvolvido por:` Vinícius Lima
 
 ![Banner do LinkStash](./BannerLinkStash.png)
