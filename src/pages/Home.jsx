@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { FiLink, FiArrowRight, FiCheck, FiMenu, FiX, FiExternalLink, FiChevronUp, FiChevronDown, FiSearch, FiGlobe, FiSave } from 'react-icons/fi'
+import { FiLink, FiArrowRight, FiCheck, FiMenu, FiX, FiExternalLink, FiChevronUp, FiChevronDown, FiSearch, FiGlobe, FiSave, FiFolder } from 'react-icons/fi'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
@@ -55,7 +55,7 @@ export default function LandingPage() {
     {
       title: "Organização Inteligente",
       description: "Categorize seus links, blocos de notas, listas de tarefas e imagens em pastas e com tags para um acesso rápido e eficiente.",
-      icon: <FiLink className="w-6 h-6 text-purple-500" />
+      icon: <FiFolder className="w-6 h-6 text-purple-500" />
     },
     {
       title: "Acesso em Qualquer Lugar",
