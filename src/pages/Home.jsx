@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { FiLink, FiArrowRight, FiCheck, FiMenu, FiX, FiExternalLink, FiChevronUp, FiChevronDown } from 'react-icons/fi'
+import { FiLink, FiArrowRight, FiCheck, FiMenu, FiX, FiExternalLink, FiChevronUp, FiChevronDown, FiSearch, FiGlobe, FiSave } from 'react-icons/fi'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
@@ -60,17 +60,17 @@ export default function LandingPage() {
     {
       title: "Acesso em Qualquer Lugar",
       description: "Disponível em todos os seus dispositivos, a qualquer momento.",
-      icon: <FiLink className="w-6 h-6 text-purple-500" />
+      icon: <FiGlobe className="w-6 h-6 text-purple-500" />
     },
     {
       title: "Busca Rápida",
       description: "Encontre qualquer item em segundos com nossa busca poderosa.",
-      icon: <FiLink className="w-6 h-6 text-purple-500" />
+      icon: <FiSearch className="w-6 h-6 text-purple-500" />
     },
     {
       title: "Armazenamento Fácil",
       description: "Guarde coleções de itens com apenas um clique.",
-      icon: <FiLink className="w-6 h-6 text-purple-500" />
+      icon: <FiSave className="w-6 h-6 text-purple-500" />
     }
   ]
 
