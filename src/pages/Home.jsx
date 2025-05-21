@@ -24,7 +24,7 @@ const SEO = () => (
     <Meta name="twitter:image" content="https://www.linkstash.com.br/social-preview.png"/>
     
     <HeadLink rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <HeadLink rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <HeadLink rel="apple-touch-icon" href="/apple-touch-icon.pn" />
     <HeadLink rel="manifest" href="/site.webmanifest" />
   </>
 )
