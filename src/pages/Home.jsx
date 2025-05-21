@@ -11,7 +11,6 @@ const SEO = () => (
     <Title>LinkStash | Organize e guarde seus itens favoritos</Title>
     <Meta name="description" content="O LinkStash é a melhor ferramenta para organizar seus bookmarks. Guarde, categorize e acesse seus links de qualquer dispositivo com sincronização em nuvem." />
     <Meta name="keywords" content="organizador de links, gerenciador de bookmarks, salvar links online, favoritos, compartilhar links, acessar links em qualquer dispositivo" />
-    <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <Meta property="og:title" content="LinkStash | Sua biblioteca de itens organizada" />
     <Meta property="og:description" content="Organize todos seus itens importantes em um só lugar com acesso rápido de qualquer dispositivo." />
@@ -22,9 +21,9 @@ const SEO = () => (
     <Meta name="twitter:card" content="summary_large_image" />
     <Meta name="twitter:title" content="LinkStash | Organize seus itens favoritos" />
     <Meta name="twitter:description" content="A solução perfeita para guardar e organizar todos os itens que você precisa." />
-    <Meta name="twitter:image" content="https://www.linkstash.com.br/images/twitter-preview.jpg" />
+    <Meta name="twitter:image" content="https://www.linkstash.com.br/social-preview.png"/>
     
-    <HeadLink rel="icon" type="image/svg+xml" href="/src/assets/LinkStash-Favicon.png" />
+    <HeadLink rel="icon" type="image/x-icon" href="/favicon.ico" />
     <HeadLink rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <HeadLink rel="manifest" href="/site.webmanifest" />
   </>
