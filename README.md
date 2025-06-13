@@ -147,7 +147,7 @@ Contributions are welcome! If you find a `bug` or have any `suggestions for impr
 
 - `Instagram:` — ***[@morusu.ink](https://instagram.com/morusu.ink)***  
 - `LinkedIn:` — ***[Vinícius Lima](https://www.linkedin.com/in/vin%C3%ADcius-lima-738603284/)***  
-- `GitHub:` — ***[@inkmors](https://github.com/morusudev)***  
+- `GitHub:` — ***[@morusudev](https://github.com/morusudev)***  
 - `Email:` — ***gvlima.contato@gmail.com***  
 - `Project link:` — ***[www.linkstash.com.br](https://www.linkstash.com.br)***
 
