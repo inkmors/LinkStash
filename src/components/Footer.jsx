@@ -24,7 +24,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               {[
-                { icon: <FaGithub />, url: "https://github.com/inkmors/Link-Stash" },
+                { icon: <FaGithub />, url: "https://github.com/morusudev/Link-Stash" },
                 { icon: <FaInstagram />, url: "https://www.instagram.com/morusu.ink/" },
                 { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/vin%C3%ADcius-lima-738603284/" }
               ].map((social, i) => (
@@ -84,7 +84,7 @@ export default function Footer() {
                 <div className="flex justify-center md:justify-start">
                   <FaGithub className="flex-shrink-0" />
                 </div>
-                <span className="text-sm">github.com/inkmors</span>
+                <span className="text-sm">github.com/morusudev</span>
               </div>
             </div>
           </div>

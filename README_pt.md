@@ -83,7 +83,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 **1. Clone o repositório:**
 
 ```bash
-git clone https://github.com/inkmors/LinkStash.git
+git clone https://github.com/morusudev/LinkStash.git
 cd linkstash
 ```
 **2. Instale as dependências:**
@@ -155,7 +155,7 @@ Contribuições são bem-vindas! Se você encontrar algum `bug` ou tiver `sugest
 
 - `Instagram:` — ***[@morusu.ink](https://instagram.com/morusu.ink)***  
 - `Linkedin:` — ***[Vinícius Lima](https://www.linkedin.com/in/vin%C3%ADcius-lima-738603284/)***  
-- `GitHub:` — ***[@inkmors](https://github.com/inkmors)***
+- `GitHub:` — ***[@morusudev](https://github.com/morusudev)***
 - `Email:` — ***gvlima.contato@gmail.com***
 - `Link do projeto:` — ***[www.linkstash.com.br](https://www.linkstash.com.br)***
 
